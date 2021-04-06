@@ -42,10 +42,10 @@ while True:
 
 			clients[client_socket] = user
 
-			print(f"Nova conexao aceita de {client_adress[0]}:{client_adress[1]} usuario:{user['data'].decode('utf-8')}")
+			print(f"Nova conexao aceita de {client_adress[0]}:{client_adress[1]} usuario: {user['data'].decode('utf-8')}")
 
 		else:
-			msg	= receive_msg(notified_socket)
+			msg = receive_msg(notified_socket)
 
 			if msg is False:
 				print(f'Conexao fechada de {clients[notified_socket]['data'].decode('utf-8')}')
