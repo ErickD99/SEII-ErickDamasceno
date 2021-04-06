@@ -18,7 +18,7 @@ while True:
 	msg = input(f"{my_username} > ")
 
 	if msg:
-		msg =  = msg.encode("utf-8")
+		msg = msg.encode("utf-8")
 		msg_header = f"{len(msg) :< {HEADERSIZE}}".encode("utf-8")
 		client_socket.send(msg_header + msg)
 
@@ -42,7 +42,7 @@ while True:
 
 	except IOError as e:
 		if e.errno != errno.EAGAIN and e.errno != errno.EWOULDBLOCK:
-			print('Reading error'str(e))
+			print('Reading error', str(e))
 			sys.exit()
 		continue
 
