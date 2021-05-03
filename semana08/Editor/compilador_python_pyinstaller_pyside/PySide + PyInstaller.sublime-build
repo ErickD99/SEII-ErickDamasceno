@@ -1,0 +1,5 @@
+{
+	"cmd": ["$packages\\compilador.exe", "$file"],
+	"selector": "text.xml, source.python",
+	"file_patterns": ["*.ui", "*.qrc"],
+}
