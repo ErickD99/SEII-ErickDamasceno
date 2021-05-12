@@ -1,2 +1,0 @@
-C:\Users\e-ric\Desktop\UFU\2020-1\Sistemas Digitais\semana08\Editor\compilador_python_pyinstaller_pyside\;
-D:\dmd2\windows\bin\;D:\dmd2\dm\bin;
